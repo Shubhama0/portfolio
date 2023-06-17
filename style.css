@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing:border-box;
+}
+  a{
+      text-decoration: none;
+  }
+  body{
+    background: black;
+    color: aliceblue;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  nav{
+  width: 100%;  
+ height: 50px;
+ /* background-color: aquamarine; */
+  }
+  .navigation{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px ; 
+    color: white; 
+  }
+  nav .navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 25px;
+    color: aliceblue;
+    }
+
+    nav .navigation ul li a{
+        color: aliceblue; 
+        text-decoration: none;
+        position: relative;
+    }
+    /* nav .navigation ul li a::after{
+        width: 100% ;
+        content: '';
+        background: red;
+        bottom: -6px;
+    } */
+    nav .navigation ul li a:hover{
+        /* background-color: rgb(208, 240, 240); */
+        border-bottom: 3px solid rgb(239, 54, 7);
+        border-radius: 2px;
+        padding: 3px;
+        transition: 0.5sec ;
+    }
+
+
+    .main{
+        display: flex;
+    }
+    .mg img{
+        margin-top: 60px ;
+        margin-right: 10px;
+        height: 480px;
+        width: 460px;
+        border: 5px solid rgb(12, 12, 12);
+        border-radius: 100% ;
+box-shadow: 15px 15px 10px blue;
+    }
+
+    .head-txt h1{
+       
+        margin-top: 50px;
+    }
+    .head-txt h1{
+        font-size: 60px;
+        margin-left: 50px;
+    }
+
+    .head-txt h1 span{
+        font-size: 60px;
+        color: rgb(201, 22, 22);
+        margin-right: 20px;
+    }
+    .head-txt h1 span:hover{
+        font-size: 70px;
+        color: rgb(196, 4, 239);
+        margin-right: 20px;
+        
+    }
+    .head-txt h1 span:before{
+        content: " Shubham ";}
+    .head-txt h1 span:hover:before{
+        content: " शुभम ";
+    }
+
+
+    .head-txt h2{
+        margin-top: 20px;
+        font-size: 30px;
+        margin-left: 80px;
+    }
+
+
+
+    .about{
+margin-top: 10px;
+    }
+.about h1 {
+    margin-left: 80px;
+        font-size: 50px;
+            }
+
+.about p{
+       margin-top: 30px;
+       font-size: 20px;
+       margin-left: 80px;
+       word-spacing: 4px;
+
+}
+.about p:hover{
+    font-size: 25px;
+    word-spacing: 5px;
+    color: #a3e23e;
+}
+
+.about h3 {
+    margin-top: 30px;
+    margin-bottom: -5px;
+    margin-left: 80px;
+    font-size: 25px;
+    color: rgb(233, 36, 184);
+            }
+.skill{
+
+    margin-left: 80px;
+}
+
+
+
+    .skill h1 {
+margin-left: 80px;
+   font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 50px;      }
+
+ 
+.container {
+  width: 80%;
+  background-color: #ddd;
+  margin-left: 100px;
+  
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white;
+}
+
+.cpp {width: 90%; height: 30px; background-color: #808080;}
+.dsa {width: 60%; height: 30px;  background-color: #0603de;}
+.html {width: 90%; height: 30px;  background-color: #04AA6D;} 
+.css {width: 80%; height: 30px;  background-color: #2196F3;} 
+.js {width: 75%; height: 30px;  background-color: #f44336;} 
+.react {width: 50%; height: 30px;  background-color: #a3e23e;}
+   
+.cph{
+    margin-top: 200px; 
+    font-size: 50px; 
+    margin-left: 50px;
+}
+.cp{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.cp .im {
+margin: 18px;
+box-shadow: 10px 10px 20px rgb(230, 52, 123);
+}
+
+.cp img:hover{
+    cursor: pointer;
+    height: 150px; 
+    width: 250px;
+     transition: 10s ease;
+    }
+
+
+.contact{
+    margin-left: 80px; 
+    margin-top: 200px;
+    display: flex; 
+}
+.contact .left{
+width: 50%;
+}
+
+.contact .right{
+    margin-left: 80px; 
+    /* margin-top: 200px; */
+    display: flex; 
+    flex-direction: column;
+    justify-self: end;
+}
+
+ #txt{
+    border: 2px solid black;
+    background-color: #373636;
+    width: 700px;
+    height: 50px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    margin-right: 80px;
+    font-size: larger;
+    font-weight: bolder;
+
+    
+}
+
+#txtar{
+    border: 2px solid black;
+    background-color: #373535;
+    width: 700px;
+    height: 250px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 80px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.btn{
+width: 150px;
+height:40px ;
+color: rgb(233, 228, 229);
+background-color: brown ;
+font-size: x-large;
+font-weight: bolder;
+border: 2px solid brown;
+border-radius: 5px;
+margin-top: 20px;
+margin-left:250px ;
+}
+
+.btn:hover{
+    color: rgb(3, 26, 235); 
+    background-color: yellow;
+}
+
+.cc{
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.cc i{
+    margin: 10px;
+    color: rgb(230, 52, 123);
+}
+
+
+.sm{
+    margin-top: 40px;
+    font-size: 40px;
+    margin-left: 10px;
+    color:  rgb(230, 52, 123);;
+}
+
+.sm i{
+    margin: 5px;
+    color: rgb(230, 52, 123);
+}
+.sm i:hover{
+    margin: 5px;
+    color:yellow;
+    font-size: 50px;
+}
+
+
+.ft{
+    margin-bottom: 50px;
+    font-size: larger;
+    margin-left:30px ;
+}
+
+
+
+
+
+@media (max-width:500px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .cp{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
